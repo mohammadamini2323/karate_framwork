@@ -10,7 +10,7 @@ import java.util.List;
 public class TestRunner {
     private final int THREAD_COUNT=5;
     private String getTags(){
-        return  System.getProperty("karate.tags","@bookStore");
+        return  System.getProperty("karate.tags","@updateStudent");
     }
     @Test
     public void runTest(){
